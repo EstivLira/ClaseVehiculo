@@ -5,7 +5,7 @@ class Vehiculos (val marca: String, val modelo: String, var color: String = "Neg
         println("""Los datos del coche son:
             marca: $marca
             modelo: $modelo
-            color: $color""")
+            color: $color"")
     }
     constructor(marca: String, modelo: String, color: String, placas: String): this(marca,modelo,color){
         this.placas = placas
