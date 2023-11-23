@@ -20,6 +20,7 @@ class Vehiculos (val marca: String, val modelo: String, var color: String = "Neg
     fun apagar(){
         encendido = false
     }
-    fun recargar(litros:Float){
+    fun recargar(litros: Float)
+    {
         gasolina+=litros
     } }
